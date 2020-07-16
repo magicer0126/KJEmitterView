@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0188063D529D7A035173494A1E1F241F /* UITextView+KJPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = EE113F1097CB669647F2E2227CACD101 /* UITextView+KJPlaceHolder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		03EAD3612C8E89B22F1150EC9B7BC061 /* UIViewController+KJFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8921CF8E05A6417255A9C0A990928E83 /* UIViewController+KJFullScreen.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		09E719DDB66E0B5AA59AE87AD069DB82 /* CALayer+KJReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A448D5B1A3D690636F7543FE871D274 /* CALayer+KJReflection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C171A8947B24393E8DA8EF18F870CA3 /* UIButton+KJCountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EB7E41AAB30F3D69A58959E75F58FA /* UIButton+KJCountDown.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C444F3A51FD8F453B51B240E793B3D0 /* UITextView+KJPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 325200C7CDC701849A7D15B9F972040D /* UITextView+KJPlaceHolder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12196A77A848D7D9E1B5CE8A0A3B1C74 /* UIButton+KJIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9411DDEF5DDF70212CFA48F0865D046C /* UIButton+KJIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		186ADFE7ECC4353B939B441F86D9A484 /* UIView+KJAppointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C4FE0925CA58F6FDE4D783A87831A9 /* UIView+KJAppointView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1B3C4F76931A7EB60CAFB7FB2F6CB21D /* UIButton+KJEnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 536F927D92EA5B44DDEAA67B77E6643A /* UIButton+KJEnlargeTouchArea.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C2DBF380FE902CA67C0CC8B91E200A3 /* UINavigationBar+KJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14361A62BF09D86756E30FAC5C14122A /* UINavigationBar+KJExtension.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D159D503508220DF3FFACE05A545B90 /* UIImage+KJPhotoshop.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEC7DA0013E48A5B973642A2B7D5DBA /* UIImage+KJPhotoshop.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		264A3E7F34DB94F27EFFD65337F1858E /* KJInteriorVesselView.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D176CF064212D7DDB4C8FCE831A160 /* KJInteriorVesselView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27386873FD56810C9D31160B2407E514 /* UIButton+KJCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B050398C98CE35660E17099F5B5B95D /* UIButton+KJCountDown.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F9CCCDE76D019B83C984B49465DDB94 /* UIButton+KJBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8F71874CCFBF01F7FE95435B589FB2 /* UIButton+KJBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36DBD87F705E3E3B35389AA50839328C /* KJInteriorVesselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0C135D7EFFB42781E9F6A0B9AC5EE /* KJInteriorVesselView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36F7732985FF16E86698245147B8FEAA /* _KJMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3813947AB414981D49DB7DB1B74E152E /* _KJMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BEAD6BF154450DB205D3C5DE3C88629 /* KJShadowLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFE4F56EB60CD8991D339EE4932308F /* KJShadowLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F3854BE3EC01DA427973C83C057E0A7 /* UITextView+KJLimitCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4924782C57FAE4544C7228F02A00A9 /* UITextView+KJLimitCounter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42233C0E2345931B281257B6A5FF01A4 /* UIImage+KJProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = BF51A8E5EAAF2CA7DDA77D1D5D430C67 /* UIImage+KJProcessing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		44F092E7C82CCBD7C939A2EB32366FAD /* UIImage+KJProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EBF766CA2DAD36BE2C0C3D866D776E /* UIImage+KJProcessing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4853FF097B73621CD8C9E7C7383DFE8D /* UIImage+KJInteriorExtendParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 095635BE8334D63678E1EB8010337572 /* UIImage+KJInteriorExtendParameter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		48C23F108E93C43E46BE58E8436A2558 /* KJLamplightLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F9E0C2299189D6DDBDA356B0B8B3F9 /* KJLamplightLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49B08F3BB90EA4891B87CDC35549A4C1 /* UIImage+KJCompressJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = E00A3F86684EE800F256FF9554A31745 /* UIImage+KJCompressJoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F0A5B1AE00AE923139E5E12D6EB3E93 /* UIButton+KJEnlargeTouchArea.h in Headers */ = {isa = PBXBuildFile; fileRef = B08B01186738272D5A78BC510E3C2820 /* UIButton+KJEnlargeTouchArea.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F1AE7D4282B94078BFE57A59862A308 /* UIImage+KJFloodFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B4CB31F2FF294B9FFACC94E656EC6 /* UIImage+KJFloodFill.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F1F1D66717C9F208BF2E455C7D3F3FF /* UIButton+KJButtonContentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D3353D7708DF89CB1ADF57D5C46C9268 /* UIButton+KJButtonContentLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FA8F410FB355C0125E94F7414A06182 /* KJSuspendedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2D689AA74BA991F9698D1AA4D00AE0 /* KJSuspendedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53B6FC585C84D9EDFA4614439D7493D7 /* UILabel+KJAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2FD484A827E372A2B17D1C2F0ACE30 /* UILabel+KJAttributedString.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		556279AF63DE590CBD65498C4B56A308 /* UIButton+KJIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 833B84C9D8F9CC0EBA60F73B00A29881 /* UIButton+KJIndicator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55869C6B90B7C1684D48E2DA5A91393D /* KJSkirtingLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DDBD66E01A8E33C9D7148DA0F50072 /* KJSkirtingLineView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		583A7EA53B3CF577ACA1BABC8F1F22B0 /* UITextView+KJHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BEA9E0D7D39265C9A721ACA4F2B903 /* UITextView+KJHyperlink.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		59EA4FB933431E1844DFBD8103E3E8E4 /* KJInteriorSuperclassView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EDA3F4E83CF7C3D249F1BCBD413F6A /* KJInteriorSuperclassView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		59FEFE3C97895DFC78106ACC8258EC40 /* UITextView+KJLimitCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B92F5FBAABDC3004DD4A2EF96D1857 /* UITextView+KJLimitCounter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5BD26A2F516C3B9DDF1B3AC642D4BBA5 /* Pods-KJEmitterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B6BB8E62D54ED3604D3926FD402DE /* Pods-KJEmitterDemo-dummy.m */; };
+		6447DC85046571CBDB576A0986C0D8B5 /* UIImage+KJBlurImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3FABE02F4B774BF6804A7BE1D25234 /* UIImage+KJBlurImage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6597EADA964E9DFA545CB1BDF2AADC55 /* UISegmentedControl+KJCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 5307CC8CED442AB2B30E796E45AB0E61 /* UISegmentedControl+KJCustom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69160268B26BE3EEDE6831B058660D75 /* UIImage+KJFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B9969383FD68707275B805BA402C4A /* UIImage+KJFilter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B03232D7F77254F4C70A941BDA74ABC /* CALayer+KJReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C917DB614661ECD7D1F2E35EAB1BB /* CALayer+KJReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B6D71A9D63B8453C4089416599DCA65 /* UIImage+KJRemoteSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB87858EF7C13B3F6AF71F224EFA762 /* UIImage+KJRemoteSize.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6BF1E8A9BD2FA1F499A92987B518FB41 /* UIImage+KJPhotoshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4201011943EF5A5F2A5F8DDA651A3B48 /* UIImage+KJPhotoshop.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6DB4BD6E6D52525CE2552DEE9903F4DB /* KJPaveImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E52B885ED46BB61488C0AC01BF212 /* KJPaveImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7136446DD1B1C819B889C503CE0CF04D /* _KJINLINE.h in Headers */ = {isa = PBXBuildFile; fileRef = F1138DFD901A069F359507F4826E4C87 /* _KJINLINE.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73EF58F7F0D646EBF6E714D1B6065665 /* UIView+KJFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = AA84CD1543A2BE99F9B65661BC12F93F /* UIView+KJFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74650E7753E4B88B7DCC2284D6B85EC4 /* UIBarButtonItem+KJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E84445B595BD058AADE5C85F37D85 /* UIBarButtonItem+KJExtension.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75C576229B624CC17F5E9E7A26503C57 /* UIImage+KJFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0452CBC10E81A129CF844314391895 /* UIImage+KJFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7619F29BA3BE3C567ED97FD739C1E0C4 /* UISegmentedControl+KJCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C0FEF6CF0825317763F5E2AA2E98 /* UISegmentedControl+KJCustom.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7750BB456BAD9444172C294FF51F0C53 /* UILabel+KJAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 127FD07BFE3CE2FB1A90B931B44B1755 /* UILabel+KJAttributedString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79C92B72B0B6C72644DCF9BD410F4CCF /* UIView+KJAppointView.h in Headers */ = {isa = PBXBuildFile; fileRef = 275E268F13E776402B65EA89E96D6CAF /* UIView+KJAppointView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B5320696AF12778B0413BF3F7D87700 /* KJLamplightLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE710159A6ABA3CC91E9BD4F27A72104 /* KJLamplightLayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7DB7EBB7B2CF7480374258FE2C632B12 /* UIView+KJGestureBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 682C5654371A76D26310145767155775 /* UIView+KJGestureBlock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		87B382B71E4CBDEC7E0C3524C9DF7CBE /* UIView+KJXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 411C7B917225D57A0E0F119EC4E75B17 /* UIView+KJXib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8D35C3E4D3A6E5B67652D3D69DDDFD3E /* UIBezierPath+KJPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E15DC9DA5C459FDCC49FD5190DA55 /* UIBezierPath+KJPoints.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		912FA928DA5C06B825B9C6D3AF767E25 /* UIView+KJRectCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DDF0C2C357674F56EB2BCA5C6D58CF4 /* UIView+KJRectCorner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92DE925F1A0EAEAFA6D534BE39DF7725 /* KJInteriorSaveDatasInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597C32AA02B29EC0935D5CB721B68D /* KJInteriorSaveDatasInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		99C1A99E6CB33BDE4D3535C1435A7AB1 /* UIButton+KJButtonContentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C54EB0DB9ECCE1C132CC613486C10 /* UIButton+KJButtonContentLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9B58468A16AF88C4FA38A05B8F45D2E3 /* UIViewController+KJFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C96C521DF595274FC47E7CB93EA59B /* UIViewController+KJFullScreen.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D1FB2EFDE0B96FBE5E872A306BEBA20 /* KJSkirtingLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF7E106F8A76E1B248B8E3271942C97 /* KJSkirtingLineView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DBB8349F2C29ACE74767911AB644747 /* KJPaveWallpaper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2949F3FD77D3DE0B6084CB17DB738FD9 /* KJPaveWallpaper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2BFC542749EF07DFF434B666E44A824 /* UIButton+KJEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1583371261D1FB0A8ED784BA4E489265 /* UIButton+KJEmitter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A626A83ED5BB12BF8C21D447B7766109 /* UIButton+KJBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E2F801174D3F96CBDDE0218C79BC3 /* UIButton+KJBlock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A70E67AB4D16BA7EA76C9CD6AC6495B4 /* KJEffectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC010A74B7F5FF73C8519BA9442916B /* KJEffectImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A8C8797DF4EE97080A7A3945EFA36B01 /* KJInteriorSaveDatasInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD931040D69C50420ED656D1738F117 /* KJInteriorSaveDatasInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFF9DD38B9B535BDB0FF134FC60DD824 /* UIImage+KJCompressJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 829458DCFA2D06055D6C56DF7863FDDF /* UIImage+KJCompressJoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B13944188B776680ECA469C444B83073 /* UIBezierPath+KJPoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 27CE7C6C5699AB2D76B1531AAD3C78E6 /* UIBezierPath+KJPoints.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B593BBBF624106CCA9B3DF6339BC830B /* KJDecorateBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB9202F28891A3607022730C81C4F5 /* KJDecorateBoxView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B6267BB170DC2EDB04B2A61C89C48A53 /* UIBarButtonItem+KJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E93473DD3DF761614B5A5866D495EAF /* UIBarButtonItem+KJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7EEF14FC3F28FDB2FCA85B6A62F71CB /* KJEmitterHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EE52325BF8411AF982A633C659CABD05 /* KJEmitterHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD5D749B0325767FCF4F2B1250943E37 /* UIImage+KJRemoteSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DEA1B3F02772FCF265929E4BF14545 /* UIImage+KJRemoteSize.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF6FE657331D4E6D139DA114D2F26F6A /* _KJIFinishTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8C3176958DD0056511A837BE46266 /* _KJIFinishTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1A691EA349269971B02D095172D9A38 /* _KJInteriorType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E061420BEE6C16F8010B3012D1856E4 /* _KJInteriorType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2897B3D73F7764410B1547F72480B5C /* KJEmitterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CD07B8860C8C2C8899D42FA438AE90 /* KJEmitterView-dummy.m */; };
+		C5C94EE4893405201215A694C25BB289 /* UIView+KJGestureBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA63FB9639B268BBFB91F3867192163 /* UIView+KJGestureBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C66A191DD52CC9C585B8C43DF03EB1CD /* UINavigationBar+KJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 692D8FD4D88CAFBED88DED2F9AB5E17D /* UINavigationBar+KJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8E73EDBC719C752127D4544A6A9AB9F /* KJEffectImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D27B0F3908152070AD082A696B32A14 /* KJEffectImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC024C9EE5884538D5B79012BAFDB206 /* UIButton+KJEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 75797367601E80B931B267E3F006C306 /* UIButton+KJEmitter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1598B2BA26DBDE4C32DFACCE197AC7C /* _KJIFinishTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4511693C08E65883D79704419499DC7C /* _KJIFinishTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D216C90AE8DA46AE3AFAEBE6AC293713 /* KJPaveImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 993EB32903BFCABE38DB8D8452BCB6DC /* KJPaveImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D35DBE837EC7827090E664926A250DF1 /* KJReflectionImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0A7CC9373CABBF5ECD33C35EE87190 /* KJReflectionImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9045182BA021DA692C36C7A1BD6DD69 /* UIImage+KJFloodFill.h in Headers */ = {isa = PBXBuildFile; fileRef = B45901518C1FEA352686F349AF5EE94D /* UIImage+KJFloodFill.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEDA1EA1A777A3B64FB464ECAC0FA56A /* UITextView+KJHyperlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A056F47EF049F7DD55EE037AF354DF2 /* UITextView+KJHyperlink.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E12CFFE2518FBE66D1F7899199DFABE9 /* KJPaveFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC7D4C4FE0CD7A8E2856B972D7787E /* KJPaveFloor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E356D928D2201ADB4F053AF15481706E /* UIView+KJXib.h in Headers */ = {isa = PBXBuildFile; fileRef = C3000DDD51F3E976D207FD492243CAE9 /* UIView+KJXib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E390B46618811B73DDB8E7F8358077E5 /* UIColor+KJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BA39F46CDEDC288D8A62B14AE73893E3 /* UIColor+KJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E63B879FF8FE76B727459279D09E3D38 /* UIImage+KJInteriorExtendParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E0C69E389D4E38FDEB0EAF978D7DAA /* UIImage+KJInteriorExtendParameter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E87BD5736381E74552A9F11CDAABFC0C /* KJShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B13276BB3D40A1C7603BEFCCFED9863 /* KJShadowLayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E9CAFE3A7CE4EA8198C2102AB8A166EB /* KJInteriorSuperclassView.h in Headers */ = {isa = PBXBuildFile; fileRef = E321E0E5E45154086F17815D73F6E93B /* KJInteriorSuperclassView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED1AC79559AB907450743963668A8458 /* KJDecorateBoxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6BB0C6F905E567CDAC48E003B04FCF /* KJDecorateBoxView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F25085E2A8C6B1B27D449DDA4F30CBDC /* KJPaveWallpaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 55183516FA3DD4E3DC8A7E0D66948435 /* KJPaveWallpaper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F6235134E993D3BDD4A20AD35567D951 /* UIImage+KJBlurImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 55579AB2B76C1923D902611E5FF64740 /* UIImage+KJBlurImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6745D8326F28E8ED82797490E527E06 /* KJPaveFloor.h in Headers */ = {isa = PBXBuildFile; fileRef = 120C7AA010A0D42C95D439865FFC2CAD /* KJPaveFloor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F82257D8921B9F5D9724793B52E03CB4 /* UIView+KJRectCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = A9758BE398B6ECD578242B06E588CCDC /* UIView+KJRectCorner.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FDAB0B64466029E7513E05E927C5423A /* UIView+KJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 619738099A9B474E43125FB4F7355D1D /* UIView+KJFrame.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FF084BC969B19F74F0BF0AD987444704 /* UIColor+KJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 592E61760668777EB9351963C5BB782B /* UIColor+KJExtension.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FF92800DAD4DF85F1D5947F874FECED2 /* KJReflectionImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 419028E333735717B5E64FD45799E2E0 /* KJReflectionImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FFC2BBD72586B59F043C81EB647EEEEA /* KJSuspendedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 685807583A6B69800A52D9021DAC200B /* KJSuspendedView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5F52D121548128FC7F4C3A13F8A4A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3996909D7C52C9F84E0C4A67BCBC4EEC;
+			remoteInfo = KJEmitterView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CD07B8860C8C2C8899D42FA438AE90 /* KJEmitterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KJEmitterView-dummy.m"; sourceTree = "<group>"; };
+		095635BE8334D63678E1EB8010337572 /* UIImage+KJInteriorExtendParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJInteriorExtendParameter.m"; path = "KJEmitterView/InteriorFinish/UIImage+KJInteriorExtendParameter.m"; sourceTree = "<group>"; };
+		096C54EB0DB9ECCE1C132CC613486C10 /* UIButton+KJButtonContentLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KJButtonContentLayout.m"; path = "KJEmitterView/Kit/UIButton/UIButton+KJButtonContentLayout.m"; sourceTree = "<group>"; };
+		0E93473DD3DF761614B5A5866D495EAF /* UIBarButtonItem+KJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+KJExtension.h"; path = "KJEmitterView/Kit/UIBarButtonItem/UIBarButtonItem+KJExtension.h"; sourceTree = "<group>"; };
+		0FB87858EF7C13B3F6AF71F224EFA762 /* UIImage+KJRemoteSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJRemoteSize.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJRemoteSize.h"; sourceTree = "<group>"; };
+		120C7AA010A0D42C95D439865FFC2CAD /* KJPaveFloor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJPaveFloor.h; path = "KJEmitterView/InteriorFinish/地板和墙纸/KJPaveFloor.h"; sourceTree = "<group>"; };
+		127FD07BFE3CE2FB1A90B931B44B1755 /* UILabel+KJAttributedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+KJAttributedString.h"; path = "KJEmitterView/Kit/UILabel/UILabel+KJAttributedString.h"; sourceTree = "<group>"; };
+		14361A62BF09D86756E30FAC5C14122A /* UINavigationBar+KJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+KJExtension.m"; path = "KJEmitterView/Kit/UINavigationBar/UINavigationBar+KJExtension.m"; sourceTree = "<group>"; };
+		1583371261D1FB0A8ED784BA4E489265 /* UIButton+KJEmitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KJEmitter.m"; path = "KJEmitterView/Kit/UIButton/UIButton+KJEmitter.m"; sourceTree = "<group>"; };
+		17EBF766CA2DAD36BE2C0C3D866D776E /* UIImage+KJProcessing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJProcessing.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJProcessing.h"; sourceTree = "<group>"; };
+		1B050398C98CE35660E17099F5B5B95D /* UIButton+KJCountDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KJCountDown.m"; path = "KJEmitterView/Kit/UIButton/UIButton+KJCountDown.m"; sourceTree = "<group>"; };
+		1D7B6BB8E62D54ED3604D3926FD402DE /* Pods-KJEmitterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KJEmitterDemo-dummy.m"; sourceTree = "<group>"; };
+		275E268F13E776402B65EA89E96D6CAF /* UIView+KJAppointView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJAppointView.h"; path = "KJEmitterView/Kit/UIView/UIView+KJAppointView.h"; sourceTree = "<group>"; };
+		27C4FE0925CA58F6FDE4D783A87831A9 /* UIView+KJAppointView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJAppointView.m"; path = "KJEmitterView/Kit/UIView/UIView+KJAppointView.m"; sourceTree = "<group>"; };
+		27CE7C6C5699AB2D76B1531AAD3C78E6 /* UIBezierPath+KJPoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+KJPoints.h"; path = "KJEmitterView/InteriorFinish/UIBezierPath+KJPoints.h"; sourceTree = "<group>"; };
+		2949F3FD77D3DE0B6084CB17DB738FD9 /* KJPaveWallpaper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJPaveWallpaper.h; path = "KJEmitterView/InteriorFinish/地板和墙纸/KJPaveWallpaper.h"; sourceTree = "<group>"; };
+		2A448D5B1A3D690636F7543FE871D274 /* CALayer+KJReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+KJReflection.h"; path = "KJEmitterView/Kit/CALayer/CALayer+KJReflection.h"; sourceTree = "<group>"; };
+		2B4924782C57FAE4544C7228F02A00A9 /* UITextView+KJLimitCounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+KJLimitCounter.h"; path = "KJEmitterView/Kit/UITextView/UITextView+KJLimitCounter.h"; sourceTree = "<group>"; };
+		2C9C917DB614661ECD7D1F2E35EAB1BB /* CALayer+KJReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+KJReflection.m"; path = "KJEmitterView/Kit/CALayer/CALayer+KJReflection.m"; sourceTree = "<group>"; };
+		325200C7CDC701849A7D15B9F972040D /* UITextView+KJPlaceHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+KJPlaceHolder.h"; path = "KJEmitterView/Kit/UITextView/UITextView+KJPlaceHolder.h"; sourceTree = "<group>"; };
+		35FB9202F28891A3607022730C81C4F5 /* KJDecorateBoxView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJDecorateBoxView.m; path = "KJEmitterView/InteriorFinish/壁画装饰/KJDecorateBoxView.m"; sourceTree = "<group>"; };
+		37D176CF064212D7DDB4C8FCE831A160 /* KJInteriorVesselView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJInteriorVesselView.h; path = KJEmitterView/InteriorFinish/KJInteriorVesselView.h; sourceTree = "<group>"; };
+		3813947AB414981D49DB7DB1B74E152E /* _KJMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _KJMacros.h; path = KJEmitterView/Kit/KJMacros/_KJMacros.h; sourceTree = "<group>"; };
+		3B13276BB3D40A1C7603BEFCCFED9863 /* KJShadowLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJShadowLayer.m; path = KJEmitterView/Kit/CALayer/KJShadowLayer.m; sourceTree = "<group>"; };
+		3B8F71874CCFBF01F7FE95435B589FB2 /* UIButton+KJBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KJBlock.h"; path = "KJEmitterView/Kit/UIButton/UIButton+KJBlock.h"; sourceTree = "<group>"; };
+		3D6BB0C6F905E567CDAC48E003B04FCF /* KJDecorateBoxView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJDecorateBoxView.h; path = "KJEmitterView/InteriorFinish/壁画装饰/KJDecorateBoxView.h"; sourceTree = "<group>"; };
+		411C7B917225D57A0E0F119EC4E75B17 /* UIView+KJXib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJXib.m"; path = "KJEmitterView/Kit/UIView/UIView+KJXib.m"; sourceTree = "<group>"; };
+		419028E333735717B5E64FD45799E2E0 /* KJReflectionImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJReflectionImageView.m; path = "KJEmitterView/InteriorFinish/倒影载体/KJReflectionImageView.m"; sourceTree = "<group>"; };
+		4201011943EF5A5F2A5F8DDA651A3B48 /* UIImage+KJPhotoshop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJPhotoshop.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJPhotoshop.m"; sourceTree = "<group>"; };
+		4511693C08E65883D79704419499DC7C /* _KJIFinishTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _KJIFinishTools.h; path = KJEmitterView/InteriorFinish/_KJIFinishTools.h; sourceTree = "<group>"; };
+		47BEA9E0D7D39265C9A721ACA4F2B903 /* UITextView+KJHyperlink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+KJHyperlink.m"; path = "KJEmitterView/Kit/UITextView/UITextView+KJHyperlink.m"; sourceTree = "<group>"; };
+		47E8C3176958DD0056511A837BE46266 /* _KJIFinishTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _KJIFinishTools.m; path = KJEmitterView/InteriorFinish/_KJIFinishTools.m; sourceTree = "<group>"; };
+		4BD931040D69C50420ED656D1738F117 /* KJInteriorSaveDatasInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJInteriorSaveDatasInfo.h; path = KJEmitterView/InteriorFinish/KJInteriorSaveDatasInfo.h; sourceTree = "<group>"; };
+		4D27B0F3908152070AD082A696B32A14 /* KJEffectImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJEffectImageView.h; path = "KJEmitterView/InteriorFinish/效果载体/KJEffectImageView.h"; sourceTree = "<group>"; };
+		4DDF0C2C357674F56EB2BCA5C6D58CF4 /* UIView+KJRectCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJRectCorner.h"; path = "KJEmitterView/Kit/UIView/UIView+KJRectCorner.h"; sourceTree = "<group>"; };
+		4FEC7DA0013E48A5B973642A2B7D5DBA /* UIImage+KJPhotoshop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJPhotoshop.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJPhotoshop.h"; sourceTree = "<group>"; };
+		519E52B885ED46BB61488C0AC01BF212 /* KJPaveImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJPaveImageView.m; path = "KJEmitterView/InteriorFinish/地板和墙纸/KJPaveImageView.m"; sourceTree = "<group>"; };
+		5307CC8CED442AB2B30E796E45AB0E61 /* UISegmentedControl+KJCustom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+KJCustom.h"; path = "KJEmitterView/Kit/UISegmentedControl/UISegmentedControl+KJCustom.h"; sourceTree = "<group>"; };
+		536F927D92EA5B44DDEAA67B77E6643A /* UIButton+KJEnlargeTouchArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KJEnlargeTouchArea.m"; path = "KJEmitterView/Kit/UIButton/UIButton+KJEnlargeTouchArea.m"; sourceTree = "<group>"; };
+		54ECE224924AA85395908F64DA3AF476 /* KJEmitterView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KJEmitterView.debug.xcconfig; sourceTree = "<group>"; };
+		55183516FA3DD4E3DC8A7E0D66948435 /* KJPaveWallpaper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJPaveWallpaper.m; path = "KJEmitterView/InteriorFinish/地板和墙纸/KJPaveWallpaper.m"; sourceTree = "<group>"; };
+		55579AB2B76C1923D902611E5FF64740 /* UIImage+KJBlurImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJBlurImage.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJBlurImage.h"; sourceTree = "<group>"; };
+		57B4A23374E1B18FDD16937149B5511F /* Pods-KJEmitterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KJEmitterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		592E61760668777EB9351963C5BB782B /* UIColor+KJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KJExtension.m"; path = "KJEmitterView/Kit/UIColor/UIColor+KJExtension.m"; sourceTree = "<group>"; };
+		5A056F47EF049F7DD55EE037AF354DF2 /* UITextView+KJHyperlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+KJHyperlink.h"; path = "KJEmitterView/Kit/UITextView/UITextView+KJHyperlink.h"; sourceTree = "<group>"; };
+		5C5E2F801174D3F96CBDDE0218C79BC3 /* UIButton+KJBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KJBlock.m"; path = "KJEmitterView/Kit/UIButton/UIButton+KJBlock.m"; sourceTree = "<group>"; };
+		5E2D689AA74BA991F9698D1AA4D00AE0 /* KJSuspendedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJSuspendedView.h; path = "KJEmitterView/InteriorFinish/吊顶处理/KJSuspendedView.h"; sourceTree = "<group>"; };
+		60E0C135D7EFFB42781E9F6A0B9AC5EE /* KJInteriorVesselView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJInteriorVesselView.m; path = KJEmitterView/InteriorFinish/KJInteriorVesselView.m; sourceTree = "<group>"; };
+		619738099A9B474E43125FB4F7355D1D /* UIView+KJFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJFrame.m"; path = "KJEmitterView/Kit/UIView/UIView+KJFrame.m"; sourceTree = "<group>"; };
+		64CF8E814ACEF03C6D8A55C3E265552C /* Pods-KJEmitterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KJEmitterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		682C5654371A76D26310145767155775 /* UIView+KJGestureBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJGestureBlock.m"; path = "KJEmitterView/Kit/UIView/UIView+KJGestureBlock.m"; sourceTree = "<group>"; };
+		685807583A6B69800A52D9021DAC200B /* KJSuspendedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJSuspendedView.m; path = "KJEmitterView/InteriorFinish/吊顶处理/KJSuspendedView.m"; sourceTree = "<group>"; };
+		68D7441CD7BB4ACBCB12B0BF27171365 /* libPods-KJEmitterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KJEmitterDemo.a"; path = "libPods-KJEmitterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		692D8FD4D88CAFBED88DED2F9AB5E17D /* UINavigationBar+KJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+KJExtension.h"; path = "KJEmitterView/Kit/UINavigationBar/UINavigationBar+KJExtension.h"; sourceTree = "<group>"; };
+		6DF7E106F8A76E1B248B8E3271942C97 /* KJSkirtingLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJSkirtingLineView.h; path = "KJEmitterView/InteriorFinish/四边踢脚线/KJSkirtingLineView.h"; sourceTree = "<group>"; };
+		6E061420BEE6C16F8010B3012D1856E4 /* _KJInteriorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _KJInteriorType.h; path = KJEmitterView/InteriorFinish/_KJInteriorType.h; sourceTree = "<group>"; };
+		73597C32AA02B29EC0935D5CB721B68D /* KJInteriorSaveDatasInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJInteriorSaveDatasInfo.m; path = KJEmitterView/InteriorFinish/KJInteriorSaveDatasInfo.m; sourceTree = "<group>"; };
+		75797367601E80B931B267E3F006C306 /* UIButton+KJEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KJEmitter.h"; path = "KJEmitterView/Kit/UIButton/UIButton+KJEmitter.h"; sourceTree = "<group>"; };
+		7A9E84445B595BD058AADE5C85F37D85 /* UIBarButtonItem+KJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+KJExtension.m"; path = "KJEmitterView/Kit/UIBarButtonItem/UIBarButtonItem+KJExtension.m"; sourceTree = "<group>"; };
+		803B4CB31F2FF294B9FFACC94E656EC6 /* UIImage+KJFloodFill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJFloodFill.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJFloodFill.m"; sourceTree = "<group>"; };
+		827F7022B7F03501548EFA035160DFA0 /* KJEmitterView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KJEmitterView.release.xcconfig; sourceTree = "<group>"; };
+		829458DCFA2D06055D6C56DF7863FDDF /* UIImage+KJCompressJoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJCompressJoint.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJCompressJoint.m"; sourceTree = "<group>"; };
+		833B84C9D8F9CC0EBA60F73B00A29881 /* UIButton+KJIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KJIndicator.h"; path = "KJEmitterView/Kit/UIButton/UIButton+KJIndicator.h"; sourceTree = "<group>"; };
+		866A640784D7F9F8280122216857454E /* KJEmitterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KJEmitterView-prefix.pch"; sourceTree = "<group>"; };
+		8921CF8E05A6417255A9C0A990928E83 /* UIViewController+KJFullScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KJFullScreen.m"; path = "KJEmitterView/Kit/UIViewController/UIViewController+KJFullScreen.m"; sourceTree = "<group>"; };
+		8B9E15DC9DA5C459FDCC49FD5190DA55 /* UIBezierPath+KJPoints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+KJPoints.m"; path = "KJEmitterView/InteriorFinish/UIBezierPath+KJPoints.m"; sourceTree = "<group>"; };
+		8CFC7D4C4FE0CD7A8E2856B972D7787E /* KJPaveFloor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJPaveFloor.m; path = "KJEmitterView/InteriorFinish/地板和墙纸/KJPaveFloor.m"; sourceTree = "<group>"; };
+		8FAD55DB8DD57590E1C71A552C31D039 /* libKJEmitterView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKJEmitterView.a; path = libKJEmitterView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E0C69E389D4E38FDEB0EAF978D7DAA /* UIImage+KJInteriorExtendParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJInteriorExtendParameter.h"; path = "KJEmitterView/InteriorFinish/UIImage+KJInteriorExtendParameter.h"; sourceTree = "<group>"; };
+		9411DDEF5DDF70212CFA48F0865D046C /* UIButton+KJIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KJIndicator.m"; path = "KJEmitterView/Kit/UIButton/UIButton+KJIndicator.m"; sourceTree = "<group>"; };
+		993EB32903BFCABE38DB8D8452BCB6DC /* KJPaveImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJPaveImageView.h; path = "KJEmitterView/InteriorFinish/地板和墙纸/KJPaveImageView.h"; sourceTree = "<group>"; };
+		9AFE4F56EB60CD8991D339EE4932308F /* KJShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJShadowLayer.h; path = KJEmitterView/Kit/CALayer/KJShadowLayer.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3C96C521DF595274FC47E7CB93EA59B /* UIViewController+KJFullScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KJFullScreen.h"; path = "KJEmitterView/Kit/UIViewController/UIViewController+KJFullScreen.h"; sourceTree = "<group>"; };
+		A9758BE398B6ECD578242B06E588CCDC /* UIView+KJRectCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJRectCorner.m"; path = "KJEmitterView/Kit/UIView/UIView+KJRectCorner.m"; sourceTree = "<group>"; };
+		AA84CD1543A2BE99F9B65661BC12F93F /* UIView+KJFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJFrame.h"; path = "KJEmitterView/Kit/UIView/UIView+KJFrame.h"; sourceTree = "<group>"; };
+		AB3FABE02F4B774BF6804A7BE1D25234 /* UIImage+KJBlurImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJBlurImage.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJBlurImage.m"; sourceTree = "<group>"; };
+		AE710159A6ABA3CC91E9BD4F27A72104 /* KJLamplightLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJLamplightLayer.m; path = "KJEmitterView/InteriorFinish/灯具效果/KJLamplightLayer.m"; sourceTree = "<group>"; };
+		AF2FD484A827E372A2B17D1C2F0ACE30 /* UILabel+KJAttributedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+KJAttributedString.m"; path = "KJEmitterView/Kit/UILabel/UILabel+KJAttributedString.m"; sourceTree = "<group>"; };
+		B08B01186738272D5A78BC510E3C2820 /* UIButton+KJEnlargeTouchArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KJEnlargeTouchArea.h"; path = "KJEmitterView/Kit/UIButton/UIButton+KJEnlargeTouchArea.h"; sourceTree = "<group>"; };
+		B2B92F5FBAABDC3004DD4A2EF96D1857 /* UITextView+KJLimitCounter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+KJLimitCounter.m"; path = "KJEmitterView/Kit/UITextView/UITextView+KJLimitCounter.m"; sourceTree = "<group>"; };
+		B2EB7E41AAB30F3D69A58959E75F58FA /* UIButton+KJCountDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KJCountDown.h"; path = "KJEmitterView/Kit/UIButton/UIButton+KJCountDown.h"; sourceTree = "<group>"; };
+		B45901518C1FEA352686F349AF5EE94D /* UIImage+KJFloodFill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJFloodFill.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJFloodFill.h"; sourceTree = "<group>"; };
+		BA39F46CDEDC288D8A62B14AE73893E3 /* UIColor+KJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+KJExtension.h"; path = "KJEmitterView/Kit/UIColor/UIColor+KJExtension.h"; sourceTree = "<group>"; };
+		BAC010A74B7F5FF73C8519BA9442916B /* KJEffectImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJEffectImageView.m; path = "KJEmitterView/InteriorFinish/效果载体/KJEffectImageView.m"; sourceTree = "<group>"; };
+		BE6BE445E418F949E71BF9960B726CCF /* Pods-KJEmitterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJEmitterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BF0452CBC10E81A129CF844314391895 /* UIImage+KJFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJFilter.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJFilter.m"; sourceTree = "<group>"; };
+		BF51A8E5EAAF2CA7DDA77D1D5D430C67 /* UIImage+KJProcessing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJProcessing.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJProcessing.m"; sourceTree = "<group>"; };
+		C1DEA1B3F02772FCF265929E4BF14545 /* UIImage+KJRemoteSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJRemoteSize.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJRemoteSize.m"; sourceTree = "<group>"; };
+		C1F9E0C2299189D6DDBDA356B0B8B3F9 /* KJLamplightLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJLamplightLayer.h; path = "KJEmitterView/InteriorFinish/灯具效果/KJLamplightLayer.h"; sourceTree = "<group>"; };
+		C3000DDD51F3E976D207FD492243CAE9 /* UIView+KJXib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJXib.h"; path = "KJEmitterView/Kit/UIView/UIView+KJXib.h"; sourceTree = "<group>"; };
+		C8F4E5FF92C2FEF823D5DC20111E63FF /* Pods-KJEmitterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJEmitterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D3353D7708DF89CB1ADF57D5C46C9268 /* UIButton+KJButtonContentLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KJButtonContentLayout.h"; path = "KJEmitterView/Kit/UIButton/UIButton+KJButtonContentLayout.h"; sourceTree = "<group>"; };
+		D8B9969383FD68707275B805BA402C4A /* UIImage+KJFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJFilter.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJFilter.h"; sourceTree = "<group>"; };
+		DE0A7CC9373CABBF5ECD33C35EE87190 /* KJReflectionImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJReflectionImageView.h; path = "KJEmitterView/InteriorFinish/倒影载体/KJReflectionImageView.h"; sourceTree = "<group>"; };
+		E00A3F86684EE800F256FF9554A31745 /* UIImage+KJCompressJoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJCompressJoint.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJCompressJoint.h"; sourceTree = "<group>"; };
+		E1EDA3F4E83CF7C3D249F1BCBD413F6A /* KJInteriorSuperclassView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJInteriorSuperclassView.m; path = KJEmitterView/InteriorFinish/KJInteriorSuperclassView.m; sourceTree = "<group>"; };
+		E321E0E5E45154086F17815D73F6E93B /* KJInteriorSuperclassView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJInteriorSuperclassView.h; path = KJEmitterView/InteriorFinish/KJInteriorSuperclassView.h; sourceTree = "<group>"; };
+		E5A4C0FEF6CF0825317763F5E2AA2E98 /* UISegmentedControl+KJCustom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+KJCustom.m"; path = "KJEmitterView/Kit/UISegmentedControl/UISegmentedControl+KJCustom.m"; sourceTree = "<group>"; };
+		EE113F1097CB669647F2E2227CACD101 /* UITextView+KJPlaceHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+KJPlaceHolder.m"; path = "KJEmitterView/Kit/UITextView/UITextView+KJPlaceHolder.m"; sourceTree = "<group>"; };
+		EE52325BF8411AF982A633C659CABD05 /* KJEmitterHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJEmitterHeader.h; path = KJEmitterView/KJEmitterHeader.h; sourceTree = "<group>"; };
+		F1138DFD901A069F359507F4826E4C87 /* _KJINLINE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _KJINLINE.h; path = KJEmitterView/Kit/KJMacros/_KJINLINE.h; sourceTree = "<group>"; };
+		F9DDBD66E01A8E33C9D7148DA0F50072 /* KJSkirtingLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KJSkirtingLineView.m; path = "KJEmitterView/InteriorFinish/四边踢脚线/KJSkirtingLineView.m"; sourceTree = "<group>"; };
+		FCA63FB9639B268BBFB91F3867192163 /* UIView+KJGestureBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJGestureBlock.h"; path = "KJEmitterView/Kit/UIView/UIView+KJGestureBlock.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508CCA082F69EE25ECD68FE778B55830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD92D8D04B1940DB640ECF265CD8451F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DDE1C22B3C91BA497B908489EAE824 /* InteriorFinish */ = {
+			isa = PBXGroup;
+			children = (
+				4511693C08E65883D79704419499DC7C /* _KJIFinishTools.h */,
+				47E8C3176958DD0056511A837BE46266 /* _KJIFinishTools.m */,
+				6E061420BEE6C16F8010B3012D1856E4 /* _KJInteriorType.h */,
+				3D6BB0C6F905E567CDAC48E003B04FCF /* KJDecorateBoxView.h */,
+				35FB9202F28891A3607022730C81C4F5 /* KJDecorateBoxView.m */,
+				4D27B0F3908152070AD082A696B32A14 /* KJEffectImageView.h */,
+				BAC010A74B7F5FF73C8519BA9442916B /* KJEffectImageView.m */,
+				4BD931040D69C50420ED656D1738F117 /* KJInteriorSaveDatasInfo.h */,
+				73597C32AA02B29EC0935D5CB721B68D /* KJInteriorSaveDatasInfo.m */,
+				E321E0E5E45154086F17815D73F6E93B /* KJInteriorSuperclassView.h */,
+				E1EDA3F4E83CF7C3D249F1BCBD413F6A /* KJInteriorSuperclassView.m */,
+				37D176CF064212D7DDB4C8FCE831A160 /* KJInteriorVesselView.h */,
+				60E0C135D7EFFB42781E9F6A0B9AC5EE /* KJInteriorVesselView.m */,
+				C1F9E0C2299189D6DDBDA356B0B8B3F9 /* KJLamplightLayer.h */,
+				AE710159A6ABA3CC91E9BD4F27A72104 /* KJLamplightLayer.m */,
+				120C7AA010A0D42C95D439865FFC2CAD /* KJPaveFloor.h */,
+				8CFC7D4C4FE0CD7A8E2856B972D7787E /* KJPaveFloor.m */,
+				993EB32903BFCABE38DB8D8452BCB6DC /* KJPaveImageView.h */,
+				519E52B885ED46BB61488C0AC01BF212 /* KJPaveImageView.m */,
+				2949F3FD77D3DE0B6084CB17DB738FD9 /* KJPaveWallpaper.h */,
+				55183516FA3DD4E3DC8A7E0D66948435 /* KJPaveWallpaper.m */,
+				DE0A7CC9373CABBF5ECD33C35EE87190 /* KJReflectionImageView.h */,
+				419028E333735717B5E64FD45799E2E0 /* KJReflectionImageView.m */,
+				6DF7E106F8A76E1B248B8E3271942C97 /* KJSkirtingLineView.h */,
+				F9DDBD66E01A8E33C9D7148DA0F50072 /* KJSkirtingLineView.m */,
+				5E2D689AA74BA991F9698D1AA4D00AE0 /* KJSuspendedView.h */,
+				685807583A6B69800A52D9021DAC200B /* KJSuspendedView.m */,
+				27CE7C6C5699AB2D76B1531AAD3C78E6 /* UIBezierPath+KJPoints.h */,
+				8B9E15DC9DA5C459FDCC49FD5190DA55 /* UIBezierPath+KJPoints.m */,
+				92E0C69E389D4E38FDEB0EAF978D7DAA /* UIImage+KJInteriorExtendParameter.h */,
+				095635BE8334D63678E1EB8010337572 /* UIImage+KJInteriorExtendParameter.m */,
+			);
+			name = InteriorFinish;
+			sourceTree = "<group>";
+		};
+		3846AC6F47762F73335C648A87F2B887 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				580E0EB86B47A08E73147975788A044A /* Pods-KJEmitterDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		580E0EB86B47A08E73147975788A044A /* Pods-KJEmitterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64CF8E814ACEF03C6D8A55C3E265552C /* Pods-KJEmitterDemo-acknowledgements.markdown */,
+				57B4A23374E1B18FDD16937149B5511F /* Pods-KJEmitterDemo-acknowledgements.plist */,
+				1D7B6BB8E62D54ED3604D3926FD402DE /* Pods-KJEmitterDemo-dummy.m */,
+				C8F4E5FF92C2FEF823D5DC20111E63FF /* Pods-KJEmitterDemo.debug.xcconfig */,
+				BE6BE445E418F949E71BF9960B726CCF /* Pods-KJEmitterDemo.release.xcconfig */,
+			);
+			name = "Pods-KJEmitterDemo";
+			path = "Target Support Files/Pods-KJEmitterDemo";
+			sourceTree = "<group>";
+		};
+		82AB58417BF2FBF539762B264C4F5A6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00CD07B8860C8C2C8899D42FA438AE90 /* KJEmitterView-dummy.m */,
+				866A640784D7F9F8280122216857454E /* KJEmitterView-prefix.pch */,
+				54ECE224924AA85395908F64DA3AF476 /* KJEmitterView.debug.xcconfig */,
+				827F7022B7F03501548EFA035160DFA0 /* KJEmitterView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KJEmitterView";
+			sourceTree = "<group>";
+		};
+		9690796CA1DF7476907CE06AB7820BE8 /* KJEmitterView */ = {
+			isa = PBXGroup;
+			children = (
+				EE52325BF8411AF982A633C659CABD05 /* KJEmitterHeader.h */,
+				09DDE1C22B3C91BA497B908489EAE824 /* InteriorFinish */,
+				BC5FCCD5464C7FAF86C8B0771D99E516 /* Kit */,
+				82AB58417BF2FBF539762B264C4F5A6E /* Support Files */,
+			);
+			name = KJEmitterView;
+			path = KJEmitterView;
+			sourceTree = "<group>";
+		};
+		BC5FCCD5464C7FAF86C8B0771D99E516 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				F1138DFD901A069F359507F4826E4C87 /* _KJINLINE.h */,
+				3813947AB414981D49DB7DB1B74E152E /* _KJMacros.h */,
+				2A448D5B1A3D690636F7543FE871D274 /* CALayer+KJReflection.h */,
+				2C9C917DB614661ECD7D1F2E35EAB1BB /* CALayer+KJReflection.m */,
+				9AFE4F56EB60CD8991D339EE4932308F /* KJShadowLayer.h */,
+				3B13276BB3D40A1C7603BEFCCFED9863 /* KJShadowLayer.m */,
+				0E93473DD3DF761614B5A5866D495EAF /* UIBarButtonItem+KJExtension.h */,
+				7A9E84445B595BD058AADE5C85F37D85 /* UIBarButtonItem+KJExtension.m */,
+				3B8F71874CCFBF01F7FE95435B589FB2 /* UIButton+KJBlock.h */,
+				5C5E2F801174D3F96CBDDE0218C79BC3 /* UIButton+KJBlock.m */,
+				D3353D7708DF89CB1ADF57D5C46C9268 /* UIButton+KJButtonContentLayout.h */,
+				096C54EB0DB9ECCE1C132CC613486C10 /* UIButton+KJButtonContentLayout.m */,
+				B2EB7E41AAB30F3D69A58959E75F58FA /* UIButton+KJCountDown.h */,
+				1B050398C98CE35660E17099F5B5B95D /* UIButton+KJCountDown.m */,
+				75797367601E80B931B267E3F006C306 /* UIButton+KJEmitter.h */,
+				1583371261D1FB0A8ED784BA4E489265 /* UIButton+KJEmitter.m */,
+				B08B01186738272D5A78BC510E3C2820 /* UIButton+KJEnlargeTouchArea.h */,
+				536F927D92EA5B44DDEAA67B77E6643A /* UIButton+KJEnlargeTouchArea.m */,
+				833B84C9D8F9CC0EBA60F73B00A29881 /* UIButton+KJIndicator.h */,
+				9411DDEF5DDF70212CFA48F0865D046C /* UIButton+KJIndicator.m */,
+				BA39F46CDEDC288D8A62B14AE73893E3 /* UIColor+KJExtension.h */,
+				592E61760668777EB9351963C5BB782B /* UIColor+KJExtension.m */,
+				55579AB2B76C1923D902611E5FF64740 /* UIImage+KJBlurImage.h */,
+				AB3FABE02F4B774BF6804A7BE1D25234 /* UIImage+KJBlurImage.m */,
+				E00A3F86684EE800F256FF9554A31745 /* UIImage+KJCompressJoint.h */,
+				829458DCFA2D06055D6C56DF7863FDDF /* UIImage+KJCompressJoint.m */,
+				D8B9969383FD68707275B805BA402C4A /* UIImage+KJFilter.h */,
+				BF0452CBC10E81A129CF844314391895 /* UIImage+KJFilter.m */,
+				B45901518C1FEA352686F349AF5EE94D /* UIImage+KJFloodFill.h */,
+				803B4CB31F2FF294B9FFACC94E656EC6 /* UIImage+KJFloodFill.m */,
+				4FEC7DA0013E48A5B973642A2B7D5DBA /* UIImage+KJPhotoshop.h */,
+				4201011943EF5A5F2A5F8DDA651A3B48 /* UIImage+KJPhotoshop.m */,
+				17EBF766CA2DAD36BE2C0C3D866D776E /* UIImage+KJProcessing.h */,
+				BF51A8E5EAAF2CA7DDA77D1D5D430C67 /* UIImage+KJProcessing.m */,
+				0FB87858EF7C13B3F6AF71F224EFA762 /* UIImage+KJRemoteSize.h */,
+				C1DEA1B3F02772FCF265929E4BF14545 /* UIImage+KJRemoteSize.m */,
+				127FD07BFE3CE2FB1A90B931B44B1755 /* UILabel+KJAttributedString.h */,
+				AF2FD484A827E372A2B17D1C2F0ACE30 /* UILabel+KJAttributedString.m */,
+				692D8FD4D88CAFBED88DED2F9AB5E17D /* UINavigationBar+KJExtension.h */,
+				14361A62BF09D86756E30FAC5C14122A /* UINavigationBar+KJExtension.m */,
+				5307CC8CED442AB2B30E796E45AB0E61 /* UISegmentedControl+KJCustom.h */,
+				E5A4C0FEF6CF0825317763F5E2AA2E98 /* UISegmentedControl+KJCustom.m */,
+				5A056F47EF049F7DD55EE037AF354DF2 /* UITextView+KJHyperlink.h */,
+				47BEA9E0D7D39265C9A721ACA4F2B903 /* UITextView+KJHyperlink.m */,
+				2B4924782C57FAE4544C7228F02A00A9 /* UITextView+KJLimitCounter.h */,
+				B2B92F5FBAABDC3004DD4A2EF96D1857 /* UITextView+KJLimitCounter.m */,
+				325200C7CDC701849A7D15B9F972040D /* UITextView+KJPlaceHolder.h */,
+				EE113F1097CB669647F2E2227CACD101 /* UITextView+KJPlaceHolder.m */,
+				275E268F13E776402B65EA89E96D6CAF /* UIView+KJAppointView.h */,
+				27C4FE0925CA58F6FDE4D783A87831A9 /* UIView+KJAppointView.m */,
+				AA84CD1543A2BE99F9B65661BC12F93F /* UIView+KJFrame.h */,
+				619738099A9B474E43125FB4F7355D1D /* UIView+KJFrame.m */,
+				FCA63FB9639B268BBFB91F3867192163 /* UIView+KJGestureBlock.h */,
+				682C5654371A76D26310145767155775 /* UIView+KJGestureBlock.m */,
+				4DDF0C2C357674F56EB2BCA5C6D58CF4 /* UIView+KJRectCorner.h */,
+				A9758BE398B6ECD578242B06E588CCDC /* UIView+KJRectCorner.m */,
+				C3000DDD51F3E976D207FD492243CAE9 /* UIView+KJXib.h */,
+				411C7B917225D57A0E0F119EC4E75B17 /* UIView+KJXib.m */,
+				A3C96C521DF595274FC47E7CB93EA59B /* UIViewController+KJFullScreen.h */,
+				8921CF8E05A6417255A9C0A990928E83 /* UIViewController+KJFullScreen.m */,
+			);
+			name = Kit;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D4C5789183245E39FE77FBBF8C0EC1B6 /* Pods */,
+				E9EE05CF83B38673DA5072B00757702F /* Products */,
+				3846AC6F47762F73335C648A87F2B887 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C5789183245E39FE77FBBF8C0EC1B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9690796CA1DF7476907CE06AB7820BE8 /* KJEmitterView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9EE05CF83B38673DA5072B00757702F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FAD55DB8DD57590E1C71A552C31D039 /* libKJEmitterView.a */,
+				68D7441CD7BB4ACBCB12B0BF27171365 /* libPods-KJEmitterDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6434AC1293157BFADF7E41E3397B7439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1598B2BA26DBDE4C32DFACCE197AC7C /* _KJIFinishTools.h in Headers */,
+				7136446DD1B1C819B889C503CE0CF04D /* _KJINLINE.h in Headers */,
+				C1A691EA349269971B02D095172D9A38 /* _KJInteriorType.h in Headers */,
+				36F7732985FF16E86698245147B8FEAA /* _KJMacros.h in Headers */,
+				09E719DDB66E0B5AA59AE87AD069DB82 /* CALayer+KJReflection.h in Headers */,
+				ED1AC79559AB907450743963668A8458 /* KJDecorateBoxView.h in Headers */,
+				C8E73EDBC719C752127D4544A6A9AB9F /* KJEffectImageView.h in Headers */,
+				B7EEF14FC3F28FDB2FCA85B6A62F71CB /* KJEmitterHeader.h in Headers */,
+				A8C8797DF4EE97080A7A3945EFA36B01 /* KJInteriorSaveDatasInfo.h in Headers */,
+				E9CAFE3A7CE4EA8198C2102AB8A166EB /* KJInteriorSuperclassView.h in Headers */,
+				264A3E7F34DB94F27EFFD65337F1858E /* KJInteriorVesselView.h in Headers */,
+				48C23F108E93C43E46BE58E8436A2558 /* KJLamplightLayer.h in Headers */,
+				F6745D8326F28E8ED82797490E527E06 /* KJPaveFloor.h in Headers */,
+				D216C90AE8DA46AE3AFAEBE6AC293713 /* KJPaveImageView.h in Headers */,
+				9DBB8349F2C29ACE74767911AB644747 /* KJPaveWallpaper.h in Headers */,
+				D35DBE837EC7827090E664926A250DF1 /* KJReflectionImageView.h in Headers */,
+				3BEAD6BF154450DB205D3C5DE3C88629 /* KJShadowLayer.h in Headers */,
+				9D1FB2EFDE0B96FBE5E872A306BEBA20 /* KJSkirtingLineView.h in Headers */,
+				4FA8F410FB355C0125E94F7414A06182 /* KJSuspendedView.h in Headers */,
+				B6267BB170DC2EDB04B2A61C89C48A53 /* UIBarButtonItem+KJExtension.h in Headers */,
+				B13944188B776680ECA469C444B83073 /* UIBezierPath+KJPoints.h in Headers */,
+				2F9CCCDE76D019B83C984B49465DDB94 /* UIButton+KJBlock.h in Headers */,
+				4F1F1D66717C9F208BF2E455C7D3F3FF /* UIButton+KJButtonContentLayout.h in Headers */,
+				0C171A8947B24393E8DA8EF18F870CA3 /* UIButton+KJCountDown.h in Headers */,
+				CC024C9EE5884538D5B79012BAFDB206 /* UIButton+KJEmitter.h in Headers */,
+				4F0A5B1AE00AE923139E5E12D6EB3E93 /* UIButton+KJEnlargeTouchArea.h in Headers */,
+				556279AF63DE590CBD65498C4B56A308 /* UIButton+KJIndicator.h in Headers */,
+				E390B46618811B73DDB8E7F8358077E5 /* UIColor+KJExtension.h in Headers */,
+				F6235134E993D3BDD4A20AD35567D951 /* UIImage+KJBlurImage.h in Headers */,
+				49B08F3BB90EA4891B87CDC35549A4C1 /* UIImage+KJCompressJoint.h in Headers */,
+				69160268B26BE3EEDE6831B058660D75 /* UIImage+KJFilter.h in Headers */,
+				D9045182BA021DA692C36C7A1BD6DD69 /* UIImage+KJFloodFill.h in Headers */,
+				E63B879FF8FE76B727459279D09E3D38 /* UIImage+KJInteriorExtendParameter.h in Headers */,
+				1D159D503508220DF3FFACE05A545B90 /* UIImage+KJPhotoshop.h in Headers */,
+				44F092E7C82CCBD7C939A2EB32366FAD /* UIImage+KJProcessing.h in Headers */,
+				6B6D71A9D63B8453C4089416599DCA65 /* UIImage+KJRemoteSize.h in Headers */,
+				7750BB456BAD9444172C294FF51F0C53 /* UILabel+KJAttributedString.h in Headers */,
+				C66A191DD52CC9C585B8C43DF03EB1CD /* UINavigationBar+KJExtension.h in Headers */,
+				6597EADA964E9DFA545CB1BDF2AADC55 /* UISegmentedControl+KJCustom.h in Headers */,
+				DEDA1EA1A777A3B64FB464ECAC0FA56A /* UITextView+KJHyperlink.h in Headers */,
+				3F3854BE3EC01DA427973C83C057E0A7 /* UITextView+KJLimitCounter.h in Headers */,
+				0C444F3A51FD8F453B51B240E793B3D0 /* UITextView+KJPlaceHolder.h in Headers */,
+				79C92B72B0B6C72644DCF9BD410F4CCF /* UIView+KJAppointView.h in Headers */,
+				73EF58F7F0D646EBF6E714D1B6065665 /* UIView+KJFrame.h in Headers */,
+				C5C94EE4893405201215A694C25BB289 /* UIView+KJGestureBlock.h in Headers */,
+				912FA928DA5C06B825B9C6D3AF767E25 /* UIView+KJRectCorner.h in Headers */,
+				E356D928D2201ADB4F053AF15481706E /* UIView+KJXib.h in Headers */,
+				9B58468A16AF88C4FA38A05B8F45D2E3 /* UIViewController+KJFullScreen.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D57F620BE5379343DF3BE17E119F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3996909D7C52C9F84E0C4A67BCBC4EEC /* KJEmitterView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143BEE6F447A07660ACF378C7C6107FB /* Build configuration list for PBXNativeTarget "KJEmitterView" */;
+			buildPhases = (
+				6434AC1293157BFADF7E41E3397B7439 /* Headers */,
+				5BC4E8C72908FB84E66F9BEDB6EB5D11 /* Sources */,
+				508CCA082F69EE25ECD68FE778B55830 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJEmitterView;
+			productName = KJEmitterView;
+			productReference = 8FAD55DB8DD57590E1C71A552C31D039 /* libKJEmitterView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6689252B0DA1FBE28E9498A04C02B109 /* Pods-KJEmitterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83413FF2F0736F79CB6567401979F2A /* Build configuration list for PBXNativeTarget "Pods-KJEmitterDemo" */;
+			buildPhases = (
+				BB9D57F620BE5379343DF3BE17E119F4 /* Headers */,
+				53A39C1F92491B77830FA4EFF4980C2B /* Sources */,
+				FD92D8D04B1940DB640ECF265CD8451F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4007A69EF4B7EB2446C8FD8093F622 /* PBXTargetDependency */,
+			);
+			name = "Pods-KJEmitterDemo";
+			productName = "Pods-KJEmitterDemo";
+			productReference = 68D7441CD7BB4ACBCB12B0BF27171365 /* libPods-KJEmitterDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E9EE05CF83B38673DA5072B00757702F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3996909D7C52C9F84E0C4A67BCBC4EEC /* KJEmitterView */,
+				6689252B0DA1FBE28E9498A04C02B109 /* Pods-KJEmitterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53A39C1F92491B77830FA4EFF4980C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD26A2F516C3B9DDF1B3AC642D4BBA5 /* Pods-KJEmitterDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC4E8C72908FB84E66F9BEDB6EB5D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6FE657331D4E6D139DA114D2F26F6A /* _KJIFinishTools.m in Sources */,
+				6B03232D7F77254F4C70A941BDA74ABC /* CALayer+KJReflection.m in Sources */,
+				B593BBBF624106CCA9B3DF6339BC830B /* KJDecorateBoxView.m in Sources */,
+				A70E67AB4D16BA7EA76C9CD6AC6495B4 /* KJEffectImageView.m in Sources */,
+				C2897B3D73F7764410B1547F72480B5C /* KJEmitterView-dummy.m in Sources */,
+				92DE925F1A0EAEAFA6D534BE39DF7725 /* KJInteriorSaveDatasInfo.m in Sources */,
+				59EA4FB933431E1844DFBD8103E3E8E4 /* KJInteriorSuperclassView.m in Sources */,
+				36DBD87F705E3E3B35389AA50839328C /* KJInteriorVesselView.m in Sources */,
+				7B5320696AF12778B0413BF3F7D87700 /* KJLamplightLayer.m in Sources */,
+				E12CFFE2518FBE66D1F7899199DFABE9 /* KJPaveFloor.m in Sources */,
+				6DB4BD6E6D52525CE2552DEE9903F4DB /* KJPaveImageView.m in Sources */,
+				F25085E2A8C6B1B27D449DDA4F30CBDC /* KJPaveWallpaper.m in Sources */,
+				FF92800DAD4DF85F1D5947F874FECED2 /* KJReflectionImageView.m in Sources */,
+				E87BD5736381E74552A9F11CDAABFC0C /* KJShadowLayer.m in Sources */,
+				55869C6B90B7C1684D48E2DA5A91393D /* KJSkirtingLineView.m in Sources */,
+				FFC2BBD72586B59F043C81EB647EEEEA /* KJSuspendedView.m in Sources */,
+				74650E7753E4B88B7DCC2284D6B85EC4 /* UIBarButtonItem+KJExtension.m in Sources */,
+				8D35C3E4D3A6E5B67652D3D69DDDFD3E /* UIBezierPath+KJPoints.m in Sources */,
+				A626A83ED5BB12BF8C21D447B7766109 /* UIButton+KJBlock.m in Sources */,
+				99C1A99E6CB33BDE4D3535C1435A7AB1 /* UIButton+KJButtonContentLayout.m in Sources */,
+				27386873FD56810C9D31160B2407E514 /* UIButton+KJCountDown.m in Sources */,
+				A2BFC542749EF07DFF434B666E44A824 /* UIButton+KJEmitter.m in Sources */,
+				1B3C4F76931A7EB60CAFB7FB2F6CB21D /* UIButton+KJEnlargeTouchArea.m in Sources */,
+				12196A77A848D7D9E1B5CE8A0A3B1C74 /* UIButton+KJIndicator.m in Sources */,
+				FF084BC969B19F74F0BF0AD987444704 /* UIColor+KJExtension.m in Sources */,
+				6447DC85046571CBDB576A0986C0D8B5 /* UIImage+KJBlurImage.m in Sources */,
+				AFF9DD38B9B535BDB0FF134FC60DD824 /* UIImage+KJCompressJoint.m in Sources */,
+				75C576229B624CC17F5E9E7A26503C57 /* UIImage+KJFilter.m in Sources */,
+				4F1AE7D4282B94078BFE57A59862A308 /* UIImage+KJFloodFill.m in Sources */,
+				4853FF097B73621CD8C9E7C7383DFE8D /* UIImage+KJInteriorExtendParameter.m in Sources */,
+				6BF1E8A9BD2FA1F499A92987B518FB41 /* UIImage+KJPhotoshop.m in Sources */,
+				42233C0E2345931B281257B6A5FF01A4 /* UIImage+KJProcessing.m in Sources */,
+				BD5D749B0325767FCF4F2B1250943E37 /* UIImage+KJRemoteSize.m in Sources */,
+				53B6FC585C84D9EDFA4614439D7493D7 /* UILabel+KJAttributedString.m in Sources */,
+				1C2DBF380FE902CA67C0CC8B91E200A3 /* UINavigationBar+KJExtension.m in Sources */,
+				7619F29BA3BE3C567ED97FD739C1E0C4 /* UISegmentedControl+KJCustom.m in Sources */,
+				583A7EA53B3CF577ACA1BABC8F1F22B0 /* UITextView+KJHyperlink.m in Sources */,
+				59FEFE3C97895DFC78106ACC8258EC40 /* UITextView+KJLimitCounter.m in Sources */,
+				0188063D529D7A035173494A1E1F241F /* UITextView+KJPlaceHolder.m in Sources */,
+				186ADFE7ECC4353B939B441F86D9A484 /* UIView+KJAppointView.m in Sources */,
+				FDAB0B64466029E7513E05E927C5423A /* UIView+KJFrame.m in Sources */,
+				7DB7EBB7B2CF7480374258FE2C632B12 /* UIView+KJGestureBlock.m in Sources */,
+				F82257D8921B9F5D9724793B52E03CB4 /* UIView+KJRectCorner.m in Sources */,
+				87B382B71E4CBDEC7E0C3524C9DF7CBE /* UIView+KJXib.m in Sources */,
+				03EAD3612C8E89B22F1150EC9B7BC061 /* UIViewController+KJFullScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C4007A69EF4B7EB2446C8FD8093F622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KJEmitterView;
+			target = 3996909D7C52C9F84E0C4A67BCBC4EEC /* KJEmitterView */;
+			targetProxy = D5F52D121548128FC7F4C3A13F8A4A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4ED0824BE6EDF4B819B455064814E03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6BE445E418F949E71BF9960B726CCF /* Pods-KJEmitterDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D2B3B9939368C86E143195E69022879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827F7022B7F03501548EFA035160DFA0 /* KJEmitterView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KJEmitterView/KJEmitterView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KJEmitterView;
+				PRODUCT_NAME = KJEmitterView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9CEBD45E967CB2D4BEEFCEF200946B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F4E5FF92C2FEF823D5DC20111E63FF /* Pods-KJEmitterDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F39545D1F59399EE46578A0F596D5615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54ECE224924AA85395908F64DA3AF476 /* KJEmitterView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KJEmitterView/KJEmitterView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KJEmitterView;
+				PRODUCT_NAME = KJEmitterView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143BEE6F447A07660ACF378C7C6107FB /* Build configuration list for PBXNativeTarget "KJEmitterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39545D1F59399EE46578A0F596D5615 /* Debug */,
+				5D2B3B9939368C86E143195E69022879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83413FF2F0736F79CB6567401979F2A /* Build configuration list for PBXNativeTarget "Pods-KJEmitterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CEBD45E967CB2D4BEEFCEF200946B2 /* Debug */,
+				4ED0824BE6EDF4B819B455064814E03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

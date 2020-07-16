@@ -1,0 +1,21 @@
+PODS:
+  - KJEmitterView (4.9.0):
+    - KJEmitterView/Kit (= 4.9.0)
+  - KJEmitterView/InteriorFinish (4.9.0):
+    - KJEmitterView/Kit
+  - KJEmitterView/Kit (4.9.0)
+
+DEPENDENCIES:
+  - KJEmitterView
+  - KJEmitterView/InteriorFinish
+
+SPEC REPOS:
+  trunk:
+    - KJEmitterView
+
+SPEC CHECKSUMS:
+  KJEmitterView: 0f6bd18725b48dd3ad0f936b70414ce0818397cc
+
+PODFILE CHECKSUM: aec384d5c5df6ee731185a3ca9dc1d5289319854
+
+COCOAPODS: 1.9.3
